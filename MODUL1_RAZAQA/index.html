@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>DapurMie
+    </h1> 
+    <!-- bar navigasi disini -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Menu</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Cabang</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Kritik & Saran</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Kontak</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Tentang kami
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Nomor wangsaff atmin</a></li>
+                  <li><a class="dropdown-item" href="#">Instagram dapurmie</a></li>
+                  <li><a class="dropdown-item" href="#">tampilan kemasan makanan</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- tampilan menu disini -->
+      <b>Menu kami :</b>
+       <div class="container ">
+        <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="OIP.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Mie Ayam</h5>
+                      <p class="card-text">Mie handmade dengan potongan ayam gurih berbumbu.</p>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Pesan sekarang
+                      </button>
+                    </div>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="col">
+                      <div class="card" style="width: 18rem;">
+                        <img src="Miepedas.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Mie Pedas Level</h5>
+                          <p class="card-text">Mie nya pedas coy.</p>
+                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Pesan sekarang
+                    </div>
+                </div>
+               <div class="col"></div>
+                    </div><div class="card" style="width: 18rem;">
+                        <img src="mikeju.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Mie Pedas keju</h5>
+                                <p class="card-text">Mie pedas tapi ngeju cuy.</p>
+                                <a href="#" class="btn btn-primary">Pesan sekarang</a>
+                                </div>
+                    </div>
+                <div class="col"></div>
+                        </div><div class="card" style="width: 18rem;">
+                            <img src="Indomie rendang.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Indomie all skin</h5>
+                              <p class="card-text">Semua skin rare sampai epic.</p>
+                              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Pesan sekarang
+                            </div>
+                          </div>   
+                        </div>
+                    </div>
+            </div>
+       </div>
+      
+      <!-- button button disini -->
+    <div class="d-grid gap-2 col-6 mx-auto">
+      <b>Order online melalui :</b>
+        <a href="https://shopee.co.id/m/shopeefood#:~:text=ShopeeFood%20adalah%20layanan%20pesan%20antar%20makanan%20yang%20dapat"> <button  class="btn btn-primary" type="button">   ShopeeFood   </button> </a>
+        <a href="https://food.grab.com/id/id/"> <button class="btn btn-primary" type="button">GrabFood</button> </a>
+        <a href="https://gofood.co.id/en"> <button class="btn btn-primary" type="button">GoFood</button> </a>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- modal notif -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Konfirmasi Pemesanan</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Apakah anda ingin pesan sekarang ke alamat anda?
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Gamaw</button>
+            <button type="button" class="btn btn-primary">Iyah</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- peta cabang -->
+    <b>Cabang DapurMie seluruh Indonesia</b>
+    <img src="peta-cabang.jpg" class="card-img-top" alt="...">
+    <!-- form pengisian -->
+    <form>
+        <div class="mb-3" >
+          <b>Jadilah partner mitra kami :</b>
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+  </body>
+</html>
